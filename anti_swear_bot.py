@@ -2,7 +2,7 @@ import discord
 
 client = discord.Client()
 
-ID = 627472115599409167
+ID = Enter your ID without strings
 
 @client.event
 async def on_member_join(member):
@@ -38,4 +38,4 @@ async def on_message(message):
         for command in commands:
             await message.channel.send(command)
 
-client.run("NjI3NDcyODA3Nzk3NzE5MDQ0.XY-giw.s01Ae3kZ9EtFZqipvCfHmpfbhP8")
+client.run("TOKEN HERE")
